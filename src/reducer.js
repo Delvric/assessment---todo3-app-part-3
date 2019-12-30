@@ -39,7 +39,7 @@ const todosReducer = (state = initialState, action) =>{
 
             // overwrite the original with the modified copy
 
-            return { todos: newTodoList};
+            
 
         
         case CLEAR_COMPLETED_TODO:

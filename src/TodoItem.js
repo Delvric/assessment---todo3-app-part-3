@@ -15,7 +15,7 @@ class TodoItem extends Component {
               onChange= {this.props.handleMarker}
             />
             <label>{this.props.title}</label>
-            <button className="destroy" onClick = {this.props. handleDeletedTodo}/>
+            <button className="destroy" onClick = {this.props.handleDeletedTodo}/>
           </div>
         </li>
       );
