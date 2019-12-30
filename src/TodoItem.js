@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "./index.css";
-// import todosList from "./todos.json";
+
 
 
 
@@ -13,10 +12,10 @@ class TodoItem extends Component {
               className="toggle"
               type="checkbox"
               checked={this.props.completed}
-              onChange= {this.props.handleCompleteTd1}
+              onChange= {this.props.handleMarker}
             />
             <label>{this.props.title}</label>
-            <button className="destroy" onClick = {this.props.handleVanish} />
+            <button className="destroy" onClick = {this.props. handleDeletedTodo}/>
           </div>
         </li>
       );
